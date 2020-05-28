@@ -1,5 +1,6 @@
 import React from 'react'
-import { graphql, compose } from 'react-apollo'
+import { graphql } from 'react-apollo'
+import compose from 'lodash.flowright';
 import { css } from 'glamor'
 import { FaUser, FaPlus } from 'react-icons/fa'
 import { observer } from 'mobx-react'
